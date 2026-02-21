@@ -29,7 +29,7 @@ export default function App() {
 
   return (
     <div className="relative bg-transparent text-foreground dark selection:bg-primary/30">
-      <img src="/logo/image.png" alt="" className="fixed inset-0 w-full h-full" />
+      <img src="/logo/image.png" alt="" className="fixed inset-0 w-full h-full object-cover" />
     
 
       <nav className="z-50 w-full h-16 border-b border-border/40 backdrop-blur-md sticky top-0 flex items-center justify-between px-6 md:px-12">
